@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import type {
   ShortUrlParams,
   UrlRepository,
-} from '../domain/repositories/url-repositoy';
+} from '../domain/repositories/url-repository';
 import { PrismaService } from 'src/prisma/prisma.service';
 import type { UrlEntity } from '../domain/entity/url.entity';
 

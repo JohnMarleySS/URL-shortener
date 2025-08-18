@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { UrlRepository } from '../../domain/repositories/url-repositoy';
+import { UrlRepository } from '../../domain/repositories/url-repository';
 
 @Injectable()
 export class resolveShortUrlUseCase {

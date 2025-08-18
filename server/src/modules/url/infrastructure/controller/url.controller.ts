@@ -5,11 +5,9 @@ import {
   Get,
   Param,
   HttpStatus,
-  Res,
   NotFoundException,
   Redirect,
 } from '@nestjs/common';
-import { Response as ExpressResponse } from 'express';
 import { ShortUrlUseCase } from '../../application/use-cases/short-url';
 import { resolveShortUrlUseCase } from '../../application/use-cases/resolve-short';
 
