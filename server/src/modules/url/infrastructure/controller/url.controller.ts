@@ -8,8 +8,8 @@ import {
   NotFoundException,
   Redirect,
 } from '@nestjs/common';
-import { ShortUrlUseCase } from '../../application/use-cases/short-url';
-import { resolveShortUrlUseCase } from '../../application/use-cases/resolve-short';
+import { ShortUrlUseCase } from '@modules/url/application/use-cases/short-url';
+import { resolveShortUrlUseCase } from '@modules/url/application/use-cases/resolve-short';
 
 @Controller()
 export class UrlController {

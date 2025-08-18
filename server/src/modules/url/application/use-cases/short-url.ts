@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import {
   ShortUrlParams,
   UrlRepository,
-} from 'src/modules/url/domain/repositories/url-repository';
+} from '@modules/url/domain/repositories/url-repository';
 import * as shortId from 'shortid';
 
 @Injectable()

@@ -15,7 +15,9 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "paths": {
-      "src/*": ["./src/*"]
+      "@modules/*": ["src/modules/*"],
+      "@prisma/*": ["src/prisma/*"],
+      "@shared/*": ["src/shared/*"]
     },
     "incremental": true,
     "skipLibCheck": true,

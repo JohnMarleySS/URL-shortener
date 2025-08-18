@@ -1,4 +1,4 @@
-import { UrlEntity } from '../entity/url.entity';
+import { UrlEntity } from '@modules/url/domain/entity/url.entity';
 
 export interface ShortUrlParams {
   originalUrl: string;

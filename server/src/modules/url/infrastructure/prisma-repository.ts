@@ -2,9 +2,9 @@ import { Injectable } from '@nestjs/common';
 import type {
   ShortUrlParams,
   UrlRepository,
-} from '../domain/repositories/url-repository';
-import { PrismaService } from 'src/prisma/prisma.service';
-import type { UrlEntity } from '../domain/entity/url.entity';
+} from '@modules/url/domain/repositories/url-repository';
+import { PrismaService } from '@prisma/prisma.service';
+import type { UrlEntity } from '@modules/url/domain/entity/url.entity';
 
 @Injectable()
 export class PrismaRepository implements UrlRepository {
