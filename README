@@ -1,37 +1,33 @@
-# 🌐 URL Shortener
+# 🔗 URL Shortener
 
-Aplicação completa para encurtamento de URLs, com **backend em NestJS** e **frontend em React**.  
-Seguindo boas práticas de arquitetura, escalabilidade e deploy na **Vercel**.  
+> Encurtador de URLs completo com **NestJS (backend)** e **React (frontend)**.  
+> Projetado com **Clean Architecture**, **DDD** e deploy otimizado na **Vercel**.
 
----
-
-## ⚙️ Arquitetura
-
-### 🛠️ Backend (NestJS)
-- **Framework**: NestJS (TypeScript)
-- **Banco de Dados**: PostgreSQL + Prisma ORM
-- **Arquitetura**: Clean Architecture + DDD
-- **Geração de IDs**: ShortID
-- **Deploy**: Vercel Serverless Functions
-
-### 🎨 Frontend (React)
-- **Framework**: React 19 + TypeScript
-- **Build Tool**: Vite
-- **UI Library**: Mantine v8
-- **Ícones**: Tabler Icons
-- **HTTP Client**: Axios
-- **Deploy**: Vercel
+Com este projeto, você pode encurtar links longos em identificadores únicos e simples, 
+armazenando-os em um banco **PostgreSQL**.  
+A aplicação segue boas práticas de arquitetura, escalabilidade e qualidade de código.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## ⚙️ Funcionalidades
+
+- ✅ Encurtamento de URLs com IDs únicos
+- 🔗 Redirecionamento automático via rota `/:shortUrl`
+- 🗄️ Banco de dados PostgreSQL com Prisma ORM
+- 🧩 Arquitetura modular (Clean Architecture + DDD)
+- 📡 API RESTful com NestJS
+- 🎨 Interface moderna em React + Mantine
+- 🚀 Deploy automatizado via Vercel
+
+---
+
+## 🛠️ Tecnologias Utilizadas
 
 ### 🔧 Backend
-- **NestJS** v11
+- **NestJS** v11 (TypeScript)
 - **Prisma** v6.14
 - **PostgreSQL**
-- **ShortID** (IDs únicos)
-- **TypeScript** v5.7
+- **ShortID** (geração de IDs únicos)
 - **ESLint + Prettier**
 
 ### 💻 Frontend
@@ -45,12 +41,12 @@ Seguindo boas práticas de arquitetura, escalabilidade e deploy na **Vercel**.
 
 ---
 
-## 📦 Instalação e Configuração
+## 📦 Instalação
 
 ### 🔑 Pré-requisitos
 - Node.js **20+**
 - PostgreSQL
-- **pnpm** (recomendado) ou npm
+- pnpm (recomendado) ou npm
 
 ### 1️⃣ Clone o repositório
 ```bash
